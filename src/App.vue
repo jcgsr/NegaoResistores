@@ -37,13 +37,16 @@
     <h2 class="text-primary">{{ result }}</h2>
 
     <button class="animate__animated animate__tada btn-warning" @click="zerar">zerar</button>
+    <Footer />
+
   </div>
 </template>
 
 <script>
+import Footer from './components/Footer'
 export default {
   name: "App",
-  components: {},
+  components: { Footer },
   data() {
     return {
       titulo: "Resistores do Negão",
