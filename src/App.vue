@@ -85,8 +85,13 @@ button {
   width: 50%;
 }
 
-h1, h2 {
+h1 {
   padding: 1rem;
+}
+
+h2 {
+  padding: 1rem;
+  font-weight: bold;
 }
 
 .form-group {
