@@ -54,8 +54,8 @@ export default {
   computed: {
     result() {
       return (
-        (parseFloat(this.r1) * parseFloat(this.r2)) / parseFloat(this.r1) +
-        parseFloat(this.r2)
+        (parseFloat(this.r1) * parseFloat(this.r2)) / (parseFloat(this.r1) +
+        parseFloat(this.r2))
       );
     }
   },
