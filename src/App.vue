@@ -34,7 +34,7 @@
       />
     </div>
 
-    <h2 class="text-primary">{{ result || 0 }}</h2>
+    <h2 class="text-primary">{{ result }}</h2>
 
     <button class="animate__animated animate__tada btn-warning" @click="zerar">zerar</button>
   </div>
@@ -56,7 +56,7 @@ export default {
       return (
         (parseFloat(this.r1) * parseFloat(this.r2)) / (parseFloat(this.r1) +
         parseFloat(this.r2))
-      );
+      ).toFixed(2)
     }
   },
   methods: {
