@@ -34,7 +34,7 @@
       />
     </div>
 
-    <h2>{{ result || 0 }}</h2>
+    <h2 class="text-primary">{{ result || 0 }}</h2>
 
     <button class="animate__animated animate__tada btn-warning" @click="zerar">zerar</button>
   </div>
@@ -85,7 +85,7 @@ button {
   width: 50%;
 }
 
-h1 {
+h1, h2 {
   padding: 1rem;
 }
 
